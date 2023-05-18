@@ -1,0 +1,59 @@
+import React from "react";
+import "./FooterStyles.css";
+import {
+  FaFacebook,
+  FaHome,
+  FaInstagram,
+  FaLinkedin,
+  FaMailBulk,
+  FaPhone,
+} from "react-icons/fa";
+
+const Footer = () => {
+  return (
+    <div className="footer">
+      <div className="footer-container">
+        <div className="left">
+          <div className="location">
+            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <p>Columbus</p>
+            <p>Indiana</p>
+          </div>
+
+          <div className="phone">
+            <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+            <p>1-812-581-4080</p>
+          </div>
+
+          <div className="email">
+            <FaMailBulk
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }} />
+            <p> megalak157@gmail.com</p>
+          </div>
+        </div>
+
+        <div className="right">
+          <p>About Me</p>
+          <p>Feel free to contact me in any of these social media forums</p>
+          <div className="social">
+            <FaFacebook
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaLinkedin
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+            <FaInstagram
+              size={20}
+              style={{ color: "#fff", marginRight: "2rem" }}
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

@@ -1,0 +1,35 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  align-items: stretch;
+  justify-content: center;
+  justify-items: center;
+  padding: 1rem 1rem;
+  margin: 0 auto;
+}
+
+label {
+  color: white;
+  padding: 0.2rem;
+
+  font-weight: 300;
+}
+
+input {
+  background-color: grey;
+  align-items: stretch;
+  height: 50px;
+  font-size: 25px;
+  color: white;
+}
+textarea {
+  background-color: grey;
+  font-size: 25px;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  font-weight: bold;
+}

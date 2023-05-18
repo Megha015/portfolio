@@ -1,0 +1,51 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import "./PricingStyles.css";
+const Pricing = () => {
+  return (
+    <div className="container">
+      <div className="h3tag">
+        <div className="card">
+          <h3>Basic</h3>
+          <span className="bar"></span>
+          <p className="price">$100</p>
+          <p>--5 days--</p>
+          <p>--8 pages--</p>
+          <p>--Featured--</p>
+          <p>--Responsive web design--</p>
+          <Link to="/contact" className="btn">
+            --Purchase now--
+          </Link>
+        </div>
+
+        <div className="card">
+          <h3>Premium</h3>
+          <span className="bar"></span>
+          <p className="price">$100</p>
+          <p>--5 days--</p>
+          <p>--8 pages--</p>
+          <p>--Featured--</p>
+          <p>--Responsive web design--</p>
+          <Link to="/contact" className="btn">
+            --Purchase now--
+          </Link>
+        </div>
+
+        <div className="card">
+          <h3>Platinum</h3>
+          <span className="bar"></span>
+          <p className="price">$100</p>
+          <p>--5 days--</p>
+          <p>--8 pages--</p>
+          <p>--Featured--</p>
+          <p>--Responsive web design--</p>
+          <Link to="/contact" className="btn">
+            --Purchase now--
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Pricing;
