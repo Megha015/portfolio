@@ -1,53 +1,59 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FormStyles.css";
 
 const Form = () => {
   const navigate = useNavigate();
-  const [message, setMessage] = useState("");
-  const [isFormValid, setIsFormValid] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isFormValid, setIsFormValid] = useState(true);
+  const formRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const form = e.target;
-    const inputs = Array.from(form.querySelectorAll("input"));
-    const textarea = form.querySelector("textarea");
-
-    const isAllFieldsFilled =
-      inputs.every((input) => input && input.value.trim() !== "") &&
-      textarea &&
-      textarea.value.trim() !== "";
+    const form = formRef.current;
+    const inputs = Array.from(form.querySelectorAll("input, textarea"));
+    const isAllFieldsFilled = inputs.every(
+      (input) => input.value.trim() !== ""
+    );
 
     if (isAllFieldsFilled) {
-      setMessage("Message Sent");
-      setIsFormValid(true);
       setIsSubmitted(true);
+      setIsFormValid(true);
+      form.reset();
       setTimeout(() => {
-        navigate("/"); // Navigate back to the home page after 1 second
+        setIsSubmitted(false);
+        navigate("/");
       }, 1000);
     } else {
-      setMessage("Please fill all the fields.");
       setIsFormValid(false);
-      setIsSubmitted(false);
     }
   };
 
   return (
-    <form>
-      <label>Your Name</label>
-      <input type="text" required />
-      <label>Email</label>
-      <input type="email" required />
-      <label>Subject</label>
-      <input type="text" required />
-      <label>Message</label>
-      <textarea rows="6" placeholder="Enter your message" required />
-      <button className="btn" onClick={handleSubmit}>
+    <form ref={formRef} onSubmit={handleSubmit}>
+      <label htmlFor="name">Your Name</label>
+      <input type="text" id="name" required />
+
+      <label htmlFor="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label htmlFor="subject">Subject</label>
+      <input type="text" id="subject" required />
+
+      <label htmlFor="message">Message</label>
+      <textarea
+        id="message"
+        rows="6"
+        placeholder="Enter your message"
+        required
+      />
+
+      <button className="btn" type="submit">
         Submit
       </button>
-      {message && <p>{message}</p>}
-      {isSubmitted && isFormValid && <p>Sent</p>}
+
+      {!isFormValid && <p>Please fill in all the required fields.</p>}
+      {isSubmitted && isFormValid && <p>Message Sent</p>}
     </form>
   );
 };

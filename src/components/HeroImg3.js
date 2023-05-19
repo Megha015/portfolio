@@ -21,8 +21,8 @@ const HeroImg3 = () => {
 
         <p data-aos="fade-right" className="text2">
           My expertise in project management also enables me to work effectively
-          with design teams and deliver the final product on time. As a UI
-          Engineer in my previous role, I collaborated closely with the design
+          with design teams and deliver the final product on time.As a Front End
+          Developer in my current role, I collaborate closely with the design
           team to understand the application features and user interface
           requirements. Through extensive research, I gathered inspiration from
           similar application designs and user interface modules, improving the

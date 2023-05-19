@@ -13,7 +13,7 @@
 .right-side-text {
   position: absolute;
   top: 50%;
-  right: 5%;
+  right: 15%;
   transform: translateY(-50%);
   text-align: right;
   color: #fff;
@@ -23,7 +23,7 @@
 .oval-container {
   position: absolute;
   top: 30%;
-  left: 20%;
+  left: 10%;
   transform: translate(
     -50%,
     -60%
@@ -100,5 +100,56 @@
 
   .hero .content p {
     font-size: 1rem;
+  }
+  .oval-container {
+    width: 100px;
+    height: 150px;
+    top: auto;
+    bottom: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .right-side-text {
+    top: auto;
+    bottom: 20%;
+    right: 5%;
+    transform: translateY(50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mask {
+    height: auto;
+    padding: 2rem;
+  }
+
+  .left-column {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .oval-container {
+    width: 100px;
+    height: 150px;
+    top: auto;
+    bottom: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+  }
+
+  .hero .content h1 {
+    font-size: 3rem;
+  }
+
+  .hero .content p {
+    font-size: 1rem;
+  }
+  .right-side-text {
+    top: auto;
+    bottom: 20%;
+    right: 5%;
+    transform: translateY(50%);
   }
 }

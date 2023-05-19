@@ -32,11 +32,11 @@ export const HeroImg = () => {
         </Link>
       </div>
       <div className="right-side-text">
-        <p>React JS.</p>
-        <p>Angular JS.</p>
-        <p>Next JS.</p>
-        <p>Three JS.</p>
-        <p>Node JS.</p>
+        <p data-aos="fade-left">React JS.</p>
+        <p data-aos="fade-up">Angular JS.</p>
+        <p data-aos="fade-right">Next JS.</p>
+        <p data-aos="fade-up">Three JS.</p>
+        <p data-aos="fade-left">Node JS.</p>
       </div>
     </div>
   );
