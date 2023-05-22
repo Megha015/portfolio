@@ -33,6 +33,34 @@
   padding-bottom: 1rem;
   font-size: 1.1rem;
   text-align: justify;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+}
+
+/* .pro-details p {
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Adjust the number of lines to display */
+/* -webkit-box-orient: vertical; */
+/* } */
+*/ .pro-details .see-more {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .pro-details p {
+    -webkit-line-clamp: initial;
+    overflow: visible;
+  }
+
+  .pro-details .see-more {
+    display: inline;
+  }
 }
 
 .pro-btns {
@@ -62,5 +90,10 @@
     max-width: 90%;
     margin: auto;
     grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .project-container {
+    grid-template-columns: 1fr; /* Display one column at a time for phone screens */
   }
 }
