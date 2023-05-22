@@ -48,7 +48,7 @@
   -webkit-line-clamp: 2; /* Adjust the number of lines to display */
 /* -webkit-box-orient: vertical; */
 /* } */
-*/ .pro-details .see-more {
+.pro-details .see-more {
   display: none;
 }
 
@@ -94,6 +94,6 @@
 }
 @media (max-width: 768px) {
   .project-container {
-    grid-template-columns: 1fr; /* Display one column at a time for phone screens */
+    grid-template-columns: 1fr;
   }
 }
