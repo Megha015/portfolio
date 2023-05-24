@@ -15,8 +15,9 @@ const ProjectCardData = [
       "- Design Tools: Adobe Photoshop, Canva, or Figma\n" +
       "- Version Control: Git\n" +
       "- Text editor: Visual Studio Code, Sublime Text, or Atom",
+
     view: "https://icecream-delivery.vercel.app/",
-    summary: "I have done this",
+    summary: "https://github.com/Megha015/icecream",
   },
   {
     imgsrc: pic2,
@@ -29,7 +30,7 @@ const ProjectCardData = [
       "Version control: Git\n" +
       "SEO: Optimized the landing page for search engines like Google.",
     view: "https://cheery-douhua-6ae378.netlify.app/",
-    summary: "I have done this",
+    summary: "https://github.com/Megha015/3d-model",
   },
   {
     imgsrc: pic4,
@@ -42,7 +43,7 @@ const ProjectCardData = [
       "- Text editor: Visual Studio Code, Sublime Text, or Atom\n" +
       "- Design skills: Created an appealing and user-friendly website.",
     view: "https://travel-react-chi.vercel.app/",
-    summary: "I have done this",
+    summary: "https://github.com/Megha015/Travel_React",
   },
   {
     imgsrc: pic5,
@@ -56,7 +57,7 @@ const ProjectCardData = [
       "- Text editor: Visual Studio Code, Sublime Text, or Atom\n" +
       "- Design skills: Created an appealing and user-friendly website.",
     view: "https://lucky-naiad-9d1d1c.netlify.app/",
-    summary: "I have done this",
+    summary: "https://github.com/Megha015/WeatherAppAngular",
   },
 ];
 
