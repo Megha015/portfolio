@@ -41,7 +41,7 @@ const ProjectCardData = [
       "- Version Control: Git\n" +
       "- Text editor: Visual Studio Code, Sublime Text, or Atom\n" +
       "- Design skills: Created an appealing and user-friendly website.",
-    view: "https://timely-starburst-f3833c.netlify.app/",
+    view: "https://travel-react-chi.vercel.app/",
     summary: "I have done this",
   },
   {
