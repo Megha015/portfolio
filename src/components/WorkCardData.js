@@ -2,6 +2,7 @@ import pic1 from "../assets/i0.jpg";
 import pic2 from "../assets/ai.jpg";
 import pic4 from "../assets/picture11.jpg";
 import pic5 from "../assets/weather.jpg";
+import pic6 from "../assets/p1.jpg";
 
 const ProjectCardData = [
   {
@@ -58,6 +59,20 @@ const ProjectCardData = [
       "- Design skills: Created an appealing and user-friendly website.",
     view: "https://lucky-naiad-9d1d1c.netlify.app/",
     summary: "https://github.com/Megha015/WeatherAppAngular",
+  },
+  {
+    imgsrc: pic6,
+    title: <span style={{ color: "red" }}>Online Boutique</span>,
+    text:
+      "This is a Front-end project using React Next JS\n" +
+      "- Web development skills: HTML, CSS, and JavaScript, Bootstrap\n" +
+      "- CMS: Sanity\n" +
+      "- Web performance optimization: Optimized the website's performance by creating services and caching.\n" +
+      "- Version Control: Git\n" +
+      "- Text editor: Visual Studio Code, Sublime Text, or Atom\n" +
+      "- Design skills: Created an appealing and user-friendly website.",
+    view: "https://chutti-pattu.vercel.app/",
+    summary: "https://github.com/Megha015/ChuttiPattu",
   },
 ];
 
