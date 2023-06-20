@@ -48,7 +48,7 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link>
-            <Link
+            {/* <Link
               to="https://www.linkedin.com/in/megala-krishnaraj-684449268"
               target="_blank"
             >
@@ -56,7 +56,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-            </Link>
+            </Link> */}
 
             <Link to="https://www.instagram.com/megha_krishna/" target="_blank">
               {" "}
