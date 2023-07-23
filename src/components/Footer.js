@@ -31,7 +31,7 @@ const Footer = () => {
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
             />
-            <p> megalak157@gmail.com</p>
+            <p> megalakraj15@gmail.com</p>
           </div>
         </div>
 
