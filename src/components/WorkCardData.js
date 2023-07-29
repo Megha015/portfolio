@@ -21,19 +21,19 @@ const ProjectCardData = [
     view: "https://icecream-delivery.vercel.app/",
     summary: "https://github.com/Megha015/icecream",
   },
-  {
-    imgsrc: pic2,
-    title: <span style={{ color: "red" }}>3-D Model with AI</span>,
-    text:
-      "Web development skills: HTML, CSS, and JavaScript. Three JS\n" +
-      "Responsive design: optimized\n" +
-      "Web hosting: Used a web hosting service like Netlify or GitHub Pages.\n" +
-      "Text editor: Used a text editor like Visual Studio Code, Sublime Text, or Atom to write and edit code.\n" +
-      "Version control: Git\n" +
-      "SEO: Optimized the landing page for search engines like Google.",
-    view: "https://cheery-douhua-6ae378.netlify.app/",
-    summary: "https://github.com/Megha015/3d-model",
-  },
+  // {
+  //   imgsrc: pic2,
+  //   title: <span style={{ color: "red" }}>3-D Model with AI</span>,
+  //   text:
+  //     "Web development skills: HTML, CSS, and JavaScript. Three JS\n" +
+  //     "Responsive design: optimized\n" +
+  //     "Web hosting: Used a web hosting service like Netlify or GitHub Pages.\n" +
+  //     "Text editor: Used a text editor like Visual Studio Code, Sublime Text, or Atom to write and edit code.\n" +
+  //     "Version control: Git\n" +
+  //     "SEO: Optimized the landing page for search engines like Google.",
+  //   view: "https://cheery-douhua-6ae378.netlify.app/",
+  //   summary: "https://github.com/Megha015/3d-model",
+  // },
   {
     imgsrc: pic4,
     title: <span style={{ color: "red" }}>Travel Website</span>,
