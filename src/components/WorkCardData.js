@@ -3,6 +3,7 @@ import pic2 from "../assets/ai.jpg";
 import pic4 from "../assets/picture11.jpg";
 import pic5 from "../assets/weather.jpg";
 import pic6 from "../assets/p1.jpg";
+import pic7 from "../assets/p11.jpg";
 
 const ProjectCardData = [
   {
@@ -73,6 +74,20 @@ const ProjectCardData = [
       "- Design skills: Created an appealing and user-friendly website.",
     view: "https://chutti-pattu.vercel.app/",
     summary: "https://github.com/Megha015/ChuttiPattu",
+  },
+  {
+    imgsrc: pic7,
+    title: <span style={{ color: "red" }}>MovieList</span>,
+    text:
+      "This is a Front-end project using React JS\n" +
+      "- Web development skills: HTML, CSS, and JavaScript \n" +
+      "- API: used OMDB API for real-time results\n" +
+      "- Web responsive : Optimized the website's resposnive by creating media queries.\n" +
+      "- Version Control: Git\n" +
+      "- Text editor: Visual Studio Code, Sublime Text\n" +
+      "- Design skills: Created an appealing and user-friendly website.",
+    view: "https://movieslist-rho.vercel.app/",
+    summary: "https://github.com/Megha015/ListOfMovies",
   },
 ];
 
