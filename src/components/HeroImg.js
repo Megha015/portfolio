@@ -34,9 +34,16 @@ export const HeroImg = () => {
       <div className="right-side-text">
         <p data-aos="fade-left">React JS.</p>
         <p data-aos="fade-up">Angular JS.</p>
-        <p data-aos="fade-right">Next JS.</p>
-        <p data-aos="fade-up">Three JS.</p>
-        <p data-aos="fade-left">Node JS.</p>
+        <p data-aos="fade-right">Node JS</p>
+        <p data-aos="fade-up">Express</p>
+        <p data-aos="fade-left">Java</p>
+      </div>
+      <div className="another-text">
+        <p data-aos="fade-left">HTML 5</p>
+        <p data-aos="fade-up">CSS 3</p>
+        <p data-aos="fade-right">JavaScript</p>
+        <p data-aos="fade-up">TypeScript</p>
+        <p data-aos="fade-left">jQuery</p>
       </div>
     </div>
   );

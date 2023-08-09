@@ -10,6 +10,36 @@
   width: 50%;
   top: 2;
 }
+.another-text {
+  position: absolute;
+  top: 50%; /* Adjust the positioning as needed */
+  right: 5%; /* Adjust the positioning as needed */
+  transform: translateY(-50%);
+  text-align: right;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Additional media queries if necessary */
+@media screen and (max-width: 640px) {
+  .another-text {
+    top: auto;
+    bottom: 20%; /* Adjust the positioning as needed */
+    right: 5%; /* Adjust the positioning as needed */
+    transform: translateY(50%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .another-text {
+    top: auto;
+    bottom: 20%; /* Adjust the positioning as needed */
+    right: 5%; /* Adjust the positioning as needed */
+    transform: translateY(50%);
+  }
+}
+
 .right-side-text {
   position: absolute;
   top: 50%;

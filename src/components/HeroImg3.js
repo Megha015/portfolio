@@ -13,26 +13,58 @@ const HeroImg3 = () => {
     <div className="content">
       <div className="text">
         <p data-aos="fade-left" className="text1">
-          Hello there! I am pleased to introduce myself as a front-end developer
-          with extensive knowledge of front-end languages and a passion for
-          creating aesthetically pleasing designs that enhance the user
-          experience.
+          Greetings! I'm thrilled to introduce myself as a seasoned front-end
+          developer, well-versed in a spectrum of front-end languages, driven by
+          a fervor for crafting visually captivating designs that elevate user
+          interactions.
         </p>
 
         <p data-aos="fade-right" className="text2">
-          My expertise in project management also enables me to work effectively
-          with design teams and deliver the final product on time.As a Front End
-          Developer, I collaborate closely with the design team to understand
-          the application features and user interface requirements. Through
-          extensive research, I gathered inspiration from similar application
-          designs and user interface modules, improving the overall design. I am
-          adept at creating website and application design mockups, presenting
-          updated front-end designs for final sign-off, and writing front-end
-          code to build the user interface. My core strengths also include
-          debugging code errors and troubleshooting software issues, skills that
-          are essential in delivering top-quality web applications. With my
-          considerable experience and skills, I am confident in my ability to
-          deliver the best results for your project.
+          My proficiency in project management equips me to seamlessly
+          collaborate with design teams, ensuring timely delivery of the end
+          product. As a Front End Developer, I closely collaborate with the
+          design team, immersing myself in application features and user
+          interface requisites. My approach involves comprehensive research,
+          drawing inspiration from analogous application designs and user
+          interface components, thereby enhancing the overall design. I excel at
+          sculpting website and application design mockups, presenting refined
+          front-end designs for final approval, and translating these visions
+          into tangible user interfaces through meticulous front-end code
+          crafting
+        </p>
+        <p data-aos="fade-left" className="text3">
+          Moreover, my expertise extends to the realm of databases and cloud
+          technologies. I have hands-on experience working with diverse
+          databases such as Oracle, SQL Server, MongoDB, and MySQL. This
+          proficiency in database management empowers me to seamlessly integrate
+          dynamic data into front-end interfaces, enriching user experiences.
+        </p>
+
+        <p data-aos="fade-right" className="text2">
+          Furthermore, I am well-versed in modern version control systems,
+          having extensively used GIT and SVN. This enables streamlined
+          collaboration, efficient code management, and ensures the integrity of
+          the project codebase throughout its lifecycle.
+        </p>
+
+        <p data-aos="fade-left" className="text3">
+          My project methodology is deeply rooted in Agile practices. I have
+          successfully worked in Agile environments, contributing to iterative
+          development cycles, participating in daily standups, backlog grooming,
+          sprint planning, and retrospective meetings. This approach ensures
+          adaptability, transparency, and the delivery of high-quality products.
+        </p>
+
+        <p data-aos="fade-right" className="text2">
+          My skillset also encompasses adeptly identifying and rectifying code
+          glitches and resolving software predicaments – competencies imperative
+          for producing impeccable web applications.
+        </p>
+
+        <p data-aos="fade-left" className="text3">
+          Leveraging my extensive experience and honed skills, I hold unwavering
+          confidence in my capacity to deliver optimal outcomes for your
+          project.
         </p>
         {/* <p className="text3">
           Please refer to my{" "}
