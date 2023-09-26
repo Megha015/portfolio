@@ -23,7 +23,7 @@ const Footer = () => {
 
           <div className="phone">
             <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            <p>1-812-657-0103</p>
+            <p>1-812-581-4080</p>
           </div>
 
           <div className="email">
@@ -31,7 +31,7 @@ const Footer = () => {
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
             />
-            <p> megalakraj15@gmail.com</p>
+            <p> megha.krishna15@gmail.com</p>
           </div>
         </div>
 
