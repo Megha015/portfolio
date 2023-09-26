@@ -12,13 +12,17 @@
 }
 .another-text {
   position: absolute;
-  top: 50%; /* Adjust the positioning as needed */
+  top: 52%; /* Adjust the positioning as needed */
   right: 5%; /* Adjust the positioning as needed */
   transform: translateY(-50%);
   text-align: right;
   color: #fff;
   font-size: 1.2rem;
   font-weight: bold;
+}
+.aws {
+  margin-right: -50px;
+  margin-top: 10px;
 }
 
 /* Additional media queries if necessary */
@@ -145,6 +149,11 @@
     bottom: 20%;
     right: 5%;
     transform: translateY(50%);
+  }
+
+  .sideText {
+    background-color: pink;
+    display: flex;
   }
 }
 

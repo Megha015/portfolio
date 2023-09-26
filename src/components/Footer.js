@@ -49,7 +49,7 @@ const Footer = () => {
               />
             </Link>
             <Link
-              to="https://www.linkedin.com/in/megala-k-a50278284"
+              to="https://www.linkedin.com/in/megala-k-2483b822b/"
               target="_blank"
             >
               <FaLinkedin
