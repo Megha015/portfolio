@@ -21,8 +21,14 @@
   font-weight: bold;
 }
 .aws {
-  margin-right: -50px;
-  margin-top: 10px;
+  /* margin-right: 10px;
+  margin-top: 40px; */
+  padding-top: 40px;
+  padding-right: 40px;
+}
+
+.aws {
+  margin-top: 1px;
 }
 
 /* Additional media queries if necessary */

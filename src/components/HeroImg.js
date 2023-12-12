@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import "./HeroImgStyles.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import AwsDev from "../assets/unnamed.png";
 
 export const HeroImg = () => {
   useEffect(() => {
@@ -32,6 +33,23 @@ export const HeroImg = () => {
         <Link to="/contact" className="btn btn-light">
           Contact
         </Link>
+        <div className="aws" data-aos="fade-up">
+          <img
+            className=""
+            src={AwsImage}
+            alt="not found"
+            height={100}
+            width={190}
+          />
+
+          <img
+            className=""
+            src={AwsDev}
+            alt="not found"
+            height={100}
+            width={100}
+          />
+        </div>
       </div>
 
       <div>
@@ -49,18 +67,31 @@ export const HeroImg = () => {
         <div className="another-text">
           <p data-aos="fade-left">React JS.</p>
           <p data-aos="fade-up">Angular JS.</p>
-          <p data-aos="fade-right">Node JS</p>
+          <p data-aos="fade-right">Node JS.</p>
+          <p data-aos="fade-up">Next JS.</p>
+          <p data-aos="fade-right">Gatsby </p>
+
           {/* <p data-aos="fade-right">JavaScript</p>
           <p data-aos="fade-up">TypeScript</p> */}
+          {/* <div className="aws2">
+            <img
+              className="aws"
+              data-aos="fade-left"
+              src={AwsImage}
+              alt="not found"
+              height={80}
+              width={180}
+            />
 
-          <img
-            className="aws"
-            data-aos="fade-left"
-            src={AwsImage}
-            alt="not found"
-            height={80}
-            width={180}
-          />
+            <img
+              className="aws"
+              data-aos="fade-left"
+              src={AwsDev}
+              alt="not found"
+              height={80}
+              width={80}
+            />
+          </div> */}
         </div>
       </div>
     </div>
