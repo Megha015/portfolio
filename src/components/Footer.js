@@ -23,7 +23,7 @@ const Footer = () => {
 
           <div className="phone">
             <FaPhone size={20} style={{ color: "#fff", marginRight: "2rem" }} />
-            <p>1-812-657-0103</p>
+            <p>1-812-581-4080</p>
           </div>
 
           <div className="email">
@@ -31,15 +31,15 @@ const Footer = () => {
               size={20}
               style={{ color: "#fff", marginRight: "2rem" }}
             />
-            <p> megalark15@gmail.com</p>
+            <p> megha.krishna15@gmail.com</p>
           </div>
         </div>
 
         <div className="right">
-          <p>To know more about me,</p>
+          {/* <p>To know more about me,</p>
           <p>Feel free to contact me through LinkedIn.</p>
-          <div className="social">
-            {/* <Link
+          <div className="social"> */}
+          {/* <Link
               to="https://www.facebook.com/megha.krishna.10"
               target="_blank"
             >
@@ -48,7 +48,7 @@ const Footer = () => {
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link> */}
-            <Link
+          {/* <Link
               to="https://www.linkedin.com/in/megala-k-2483b822b/"
               target="_blank"
             >
@@ -56,19 +56,19 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-            </Link>
+            </Link> */}
 
-            {/* <Link to="https://www.instagram.com/megha_krishna/" target="_blank">
+          {/* <Link to="https://www.instagram.com/megha_krishna/" target="_blank">
               {" "}
               <FaInstagram
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
             </Link> */}
-          </div>
         </div>
       </div>
     </div>
+    // </div>
   );
 };
 
